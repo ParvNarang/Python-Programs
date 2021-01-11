@@ -39,7 +39,6 @@ while True:
       else:
          print("Not an Armstrong number")
 
-
    elif j == "automorphic" or j =="Automorphic" or j=="3":
       print("         MENU FOR AUTOMORPHIC      ")
       #num = input("ENTER THE NUMBER")
@@ -54,7 +53,6 @@ while True:
          print("AUTO")
       else:
          print("NOT")
-
 
    elif j =="special" or j=="4":
       num = int(num)
@@ -76,12 +74,5 @@ while True:
       else:
          print("\tNot Special")
 
-
    else:
       break
-
-
-            
-      
-
-
