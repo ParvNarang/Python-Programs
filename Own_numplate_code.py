@@ -24,15 +24,11 @@ def i():
     text = pytesseract.image_to_string(adaptive_threshold, config=config, lang="eng")
     #print(text)
 
-
     alphanumeric = ""
     for character in text:
         if character.isalnum():
             alphanumeric += character
     print(alphanumeric)
-
-
-
 
     if text[0] != 'D':
         b = text.replace(text[0],'')
@@ -90,23 +86,3 @@ if width < 350 and height < 210:
 
 else:
     i()
-
-
-
-'''import re 
-  
-# Function checks if the string 
-# contains any special character 
-def run(string): 
-  
-    # Make own character set and pass  
-    # this as argument in compile method 
-    regex = re.compile('[@_!#$%^&*()<>?/\|}{~:]') 
-      
-    # Pass the string in search  
-    # method of regex object.     
-    if(regex.search(string) == None): 
-        print("String is accepted") 
-          
-    else: 
-        print("String is not accepted.")'''
