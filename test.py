@@ -59,7 +59,3 @@ if plate == "HR":
 if plate == "PB":
     print("OKAY SO IN",lists[5])
     num_inp()
-
-
-
-
